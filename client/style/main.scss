@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import "~bootstrap";
+
+body {
+	background-color: rgb(240, 240, 240);
+	font-family: "Ubuntu", "Trebuchet MS", sans-serif;
+}
+
+.monospace-group-prepend {
+    font-family: monospace;
+}
+
+#graph {
+    border: solid rgb(200, 200, 200);
+}

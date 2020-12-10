@@ -1,0 +1,5 @@
+{
+	"httpPort": 8080,
+	"wsWebPort": 8081,
+	"wsPIDPort": 8082
+}

@@ -1,0 +1,13 @@
+{
+	"name": "pidebug_plugin",
+	"servePlaceIds": [6060472809],
+	"tree": {
+		"$className": "DataModel",
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"PIDebugPlugin": {
+				"$path": "rbx_plugin"
+			}
+		}
+	}
+}

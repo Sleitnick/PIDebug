@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": ["dom"],
+        "outDir": "./public/",
+        "noImplicitAny": true,
+        "module": "ES6",
+        "target": "ES5",
+        "jsx": "react",
+        "allowJs": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": false,
+        "moduleResolution": "node",
+		"typeRoots": ["node_modules/@types"]
+    },
+	"exclude": ["node_modules", "public"]
+}
