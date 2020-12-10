@@ -3,7 +3,7 @@ const WebSocket = require("ws");
 const fs = require("fs");
 const path = require("path");
 
-const ROOT = path.resolve(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", "..");
 
 const config = JSON.parse(fs.readFileSync("./pidebug_config.json", {encoding: "utf8"}));
 

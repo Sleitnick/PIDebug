@@ -4,7 +4,7 @@
 	"scripts": {
 		"client": "webpack",
 		"client-watch": "webpack -w",
-		"server": "node src/server.js"
+		"server": "node src/server/server.js"
 	},
 	"devDependencies": {
 		"css-loader": "^5.0.1",

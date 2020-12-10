@@ -1,4 +1,3 @@
-import { Reducer, ReducerAction } from "react";
 import { createStore } from "redux";
 
 const initialState = {

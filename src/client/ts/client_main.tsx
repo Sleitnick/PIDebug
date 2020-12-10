@@ -4,7 +4,7 @@ import Graph from "./graph";
 import { Provider } from "react-redux";
 import store from "./store"
 import Index from "./components/Index"
-import * as config from "../../pidebug_config.json";
+import * as config from "../../../pidebug_config.json";
 import "jquery";
 import "popper.js";
 import "bootstrap";

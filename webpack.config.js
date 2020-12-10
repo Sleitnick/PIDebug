@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-	entry: "./client/src/client_main.tsx",
+	entry: "./src/client/ts/client_main.tsx",
 	devtool: "inline-source-map",
 	output: {
 		path: path.resolve(__dirname, "public"),
@@ -53,7 +53,7 @@ module.exports = {
 		}),
 		new HtmlWebpackPlugin({
 			title: "PIDebug",
-			template: "client/html/index.html",
+			template: "./src/client/html/index.html",
 			meta: {viewport: "width=device-width, initial-scale=1, shrink-to-fit=no"}
 		})
 	]
