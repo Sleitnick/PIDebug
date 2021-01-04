@@ -59,12 +59,13 @@ waitFor<HTMLCanvasElement>("graph", 10, 10000).then((graphCanvas) => {
 
 	const render = () => {
 		graph.render();
+		requestAnimationFrame(render);
 	};
 
 	window.addEventListener("resize", resizeGraphCanvas);
 	resizeGraphCanvas();
 	graph.draw();
-	setInterval(render, 2);
+	render();
 
 	const ws = new WebSocket(`ws://localhost:${config.wsWebPort}`);
 	ws.onmessage = (message) => {
