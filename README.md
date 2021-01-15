@@ -2,6 +2,11 @@
 
 Visualize and tune PID controllers in a moving graph.
 
+## Install dependencies
+```sh
+npm install
+```
+
 ## Build Client
 To build the client, run:
 ```sh
